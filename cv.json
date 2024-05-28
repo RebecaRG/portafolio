@@ -14,11 +14,18 @@
         "countryCode": "US",
         "region": "California"
       },
-      "profiles": [{
-        "network": "Twitter",
-        "username": "john",
-        "url": "https://twitter.com/john"
-      }]
+      "profiles": [
+        {
+        "network": "LinkedIn",
+        "username": "rebeca",
+        "url": "..."
+      },
+      {
+        "network": "Github",
+        "username": "rebeca",
+        "url": "https://github.com/RebecaRG"
+      }
+    ]
     },
     "work": [{
       "name": "Company",
