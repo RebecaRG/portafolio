@@ -27,17 +27,31 @@
       }
     ]
     },
-    "work": [{
+    "work": [
+      {
       "name": "Company",
       "position": "President",
       "url": "https://company.com",
       "startDate": "2013-01-01",
       "endDate": "2014-01-01",
-      "summary": "Description…",
+      "summary": "Vestibulum at massa sit amet tellus condimentum semper. Aenean sollicitudin bibendum tempor. Curabitur ut cursus risus.",
       "highlights": [
         "Started the company"
       ]
-    }],
+    }, 
+    {
+      "name": "Company2",
+      "position": "Sub-President",
+      "url": "https://company.com",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan ipsum erat, non bibendum odio semper ac.",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+    
+    ],
     "volunteer": [{
       "organization": "Organization",
       "position": "Volunteer",
