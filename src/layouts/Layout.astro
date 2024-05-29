@@ -60,4 +60,10 @@ const { title } = Astro.props;
 		text-wrap: pretty;
 	}
 
+	@media print {
+		.no-print {
+			display: none;
+		}
+	}
+
 </style>
