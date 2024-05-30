@@ -1,25 +1,21 @@
 {
     "basics": {
       "name": "Rebeca Rodríguez",
-      "label": "Frontend Developer | Conocimentos en Backend",
-      "image": "https://avatars.githubusercontent.com/u/128485886?v=4",
-      "email": "john@gmail.com",
-      "phone": "+34 666 222 222",
-      "url": "https://rebecaRod.dev",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan ipsum erat, non bibendum odio semper ac. Vestibulum at massa sit amet tellus condimentum semper. Aenean sollicitudin bibendum tempor. Curabitur ut cursus risus. Integer in hendrerit eros. Proin ultricies tortor nulla, euismod malesuada sem pharetra a. Praesent vel ultricies sapien. Nulla laoreet odio enim, at congue sem accumsan non.",
+      "label": "Frontend Developer | Conocimientos en Backend",
+      "image": "public/fotcv.png",
+      "email": "rebeca.rodriguez.guirao@gmail.com",
+      "phone": "+34 670 31 03 28",
+      "url": "https://rebecarodriguez.info",
+      "summary": "Mi formación universitaria comenzó con magisterio, donde no solo se alimentaron mis ganas de enseñar, sino también las de aprender. Soy una gran apasionada de las nuevas tecnologías, y mi interés por ellas me ha llevado a estudiar una Licenciatura en Comunicación Audiovisual y a especializarme en la programación, específicamente en la parte del cliente, aunque también me he interesado por el lado del servidor. Mi trayectoria profesional me ha ayudado a desarrollar habilidades de comunicación, trabajo en equipo y la facilidad para afrontar nuevos retos. Me considero una persona muy responsable, con gran capacidad para encontrar soluciones."
+,
       "location": {
-        "address": "2712 Broadway St",
-        "postalCode": "CA 94115",
-        "city": "San Francisco",
-        "countryCode": "US",
-        "region": "California"
+        "address": "",
+        "postalCode": "",
+        "city": "",
+        "countryCode": "",
+        "region": "Barcelona"
       },
       "profiles": [
-        {
-        "network": "LinkedIn",
-        "username": "rebeca",
-        "url": "..."
-      },
       {
         "network": "Github",
         "username": "rebeca",
@@ -29,103 +25,353 @@
     },
     "work": [
       {
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Vestibulum at massa sit amet tellus condimentum semper. Aenean sollicitudin bibendum tempor. Curabitur ut cursus risus.",
+      "name": "Departament d'Educació de la Generalitat de Catalunya",
+      "position": "Profesora Interina de Formación Profesional",
+      "url": "",
+      "startDate": "2020-01-01",
+      "endDate": "2023-01-01",
+      "summary": "Realización de la programación, la evaluación, la coordinación con el equipo docente y la elaboración del material y los contenidos.",
       "highlights": [
-        "Started the company"
+        ""
       ]
     }, 
     {
-      "name": "Company2",
-      "position": "Sub-President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan ipsum erat, non bibendum odio semper ac.",
+      "name": "Departament d'Educació de la Generalitat de Catalunya",
+      "position": "Maestra Interina de Educación Infantil y Primaria",
+      "url": "",
+      "startDate": "2016-09-01",
+      "endDate": "2020-09-01",
+      "summary": "Elaboración de las programaciones de aula, seguimiento y evaluación del alumnado, elaboración de material diverso y reuniones con las familias.",
       "highlights": [
-        "Started the company"
+        ""
+      ]
+    }, 
+    {
+      "name": "OBS Business School",
+      "position": "Asesora de programas",
+      "url": "",
+      "startDate": "2011-01-01",
+      "endDate": "2015-01-01",
+      "summary": "Ofrecer información telefónica, por correo electrónico y de manera presencial sobre los másteres y postgrados y realizar las gestiones del proceso de inscripción.",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "name": "Marinva",
+      "position": "Técnica de proyectos de Comunicación",
+      "url": "",
+      "startDate": "2009-01-01",
+      "endDate": "2011-01-01",
+      "summary": "Participación en proyectos elaborando focus groups, revisando juegos educativos, coordinando actividades de participación ciudadana, y manteniendo y revisando páginas web. También brindé soporte elaborando material gráfico y audiovisual.",
+      "highlights": [
+        ""
       ]
     }
+
     
     ],
     "volunteer": [{
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
+      "organization": "",
+      "position": "",
+      "url": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
       "highlights": [
-        "Awarded 'Volunteer of the Month'"
+        ""
       ]
     }],
-    "education": [{
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
+    "education": [
+      {
+        "institution": "IT Academy",
+        "url": "https://www.barcelonactiva.cat/es/itacademy",
+        "area": "Bootcamp Desarrollo Frontend - Especialidad en Angular",
+        "studyType": "Especialización",
+        "startDate": "2023-05-01",
+        "endDate": "2024-05-01",
+        "score": "",
+        "courses": [
+          ""
+        ]
+      },
+      {
+        "institution": "Universitat de Barcelona",
+        "url": "https://web.ub.edu/inici",
+        "area": "Licenciatura en Comunicación Audiovisual",
+        "studyType": "Universitarios",
+        "startDate": "2007-09-01",
+        "endDate": "2010-06-01",
+        "score": "",
+        "courses": [
+          ""
+        ]
+      },
+      {
+      "institution": "Universitat Autònoma de Barcelona",
+      "url": "https://www.uab.cat/",
+      "area": "Diplomatura en Magisterio",
+      "studyType": "Universitarios",
+      "startDate": "2000-09-01",
+      "endDate": "2004-01-01",
+      "score": "",
       "courses": [
-        "DB1101 - Basic SQL"
+        ""
       ]
-    }],
+    }
+    
+  ],
     "awards": [{
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
     }],
-    "certificates": [{
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
-    }],
+    "certificates": [
+      {
+        "name": "Gestiona bases de datos con MySQL",
+        "date": "2024-02-01",
+        "issuer": "Cibernàrium-22@",
+        "url": "https://cibernarium.barcelonactiva.cat/es"},
+      {
+        "name": "Introducción a la programación frontend con React JS",
+        "date": "2023-04-01",
+        "issuer": "Cibernàrium-22@",
+        "url": "https://cibernarium.barcelonactiva.cat/es"},
+      {
+        "name": "Bootsrap: Adapta tu web a diferentes dispositivos",
+        "date": "2023-03-01",
+        "issuer": "Cibernàrium-22@",
+        "url": "https://cibernarium.barcelonactiva.cat/es"},
+      {
+        "name": "Aprendre a programar una API en PHP y MySQL",
+        "date": "2023-03-01",
+        "issuer": "Cibernàrium-22@",
+        "url": "https://cibernarium.barcelonactiva.cat/es"},
+      {
+        "name": "Diseña actividades gamificadas con Genially",
+        "date": "2021-07-01",
+        "issuer": "Cibernàrium-22@",
+        "url": "https://cibernarium.barcelonactiva.cat/es"},
+      {
+        "name": "No le des más vueltas, GA-MI-FI-CA tu aula",
+        "date": "2021-07-01",
+        "issuer": "IPS - Universitat de Barcelona",
+        "url": "https://www.ub.edu/idp/web/ca/cursos/ips/"
+      },
+      {
+      "name": "Moodle, nivel básico",
+      "date": "2020-07-01",
+      "issuer": "Aprèn Online",
+      "url": "https://aprenonline.org/"
+    }
+  ],
     "publications": [{
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "url": "",
+      "summary": ""
     }],
-    "skills": [{
-      "name": "Web Development",
-      "level": "Master",
+    "skills": [
+      {
+        "name": "Angular",
+        "level": "Intermedio",
+        "keywords": [
+          ""
+        ]
+      },
+      {
+      "name": "HTML5",
+      "level": "Intermedio",
       "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
+        ""
       ]
-    }],
+    },
+    {
+      "name": "CSS3",
+      "level": "Intermedio",
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "name": "Bootstrap",
+      "level": "Intermedio",
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Intermedio",
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Intermedio",
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Principiante",
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "name": "Express",
+      "level": "Principiante",
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "name": "Node.js",
+      "level": "Prinicpiante",
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "name": "Sequelize",
+      "level": "Principiante",
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "name": "APIs",
+      "level": "Intermedio",
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "name": "Unit Testing",
+      "level": "Principiante",
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "name": "JWT",
+      "level": "Principiante",
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "name": "Mock Backend",
+      "level": "Principiante",
+      "keywords": [
+        ""
+      ]
+    }, 
+    {
+      "name": "XAMPP",
+      "level": "Principiante",
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "name": "Postman",
+      "level": "Intermedio",
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "name": "Astro",
+      "level": "Principiante",
+      "keywords": [
+        ""
+      ]
+    }
+    
+  ],
     "languages": [{
-      "language": "English",
-      "fluency": "Native speaker"
+      "language": "",
+      "fluency": ""
     }],
     "interests": [{
-      "name": "Wildlife",
+      "name": "",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "",
+        ""
       ]
     }],
     "references": [{
-      "name": "Jane Doe",
-      "reference": "Reference…"
+      "name": "",
+      "reference": ""
     }],
-    "projects": [{
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
+    "projects": [
+      {
+      "name": "Star Wars Starships Explorer",
+      "startDate": "2024-02-01",
+      "endDate": "",
+      "description": "Web desarrollada con Angular 17 sobre naves de Star Wars utilizando APIs, siguiendo la estética de la web oficial. Este proyecto incluye un scroll infinito, autenticación con JWT en json-server-auth y rutas protegidas.",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "Angular 17", "TypeScript", "JWT", "APIs", "Unit Testing", "Mock Backend", "Bootstrap", "HTML5", "CSS3", "Postman"
       ],
-      "url": "https://project.com/"
-    }]
+      "url": "https://github.com/RebecaRG/Star-Wars-Starships-Explorer"
+    },
+    {
+      "name": "Inprocode",
+      "startDate": "2024-04-01",
+      "endDate": "2024-05-30",
+      "description": "Web desarrollada con Angular 17, que presenta un listado de productos donde se pueden realizar las operaciones típicas de CRUD. Se han utilizado las siguientes tecnologías: Mapbox GL, Chart.js, ngx-toastr y Tippy.js.",
+      "highlights": [
+        "Angular 17", "TypeScript", "JWT", "APIs", "Bootstrap", "HTML5", "CSS3", "CRUD", "Mapbox GL", "Chart.js", "ngx-toastr", "Tippy.js"
+      ],
+      "url": "https://github.com/RebecaRG/inprocode"
+    },
+      {
+      "name": "Server-inprocode",
+      "startDate": "2024-03-01",
+      "endDate": "2024-03-30",
+      "description": "Backend desarrollado con Express y Sequelize, que utiliza TypeScript y dotenv, complementando el frontend en el repositorio inprocode.",
+      "highlights": [
+        "TypeScript", "Express", "Node.js", "Sequelize", "dotenev"
+      ],
+      "url": "https://github.com/RebecaRG/server-inprocode"
+    },
+  {
+    "name": "Playteca",
+    "startDate": "2024-04-01",
+    "endDate": "2024-05-30",
+    "description": "Proyecto personal de un sitio web sobre juegos de mesa, que ofrece información sobre eventos, un mapa con lugares de interés, y un listado de juegos de mesa con sus características. Además, permite a los usuarios y usuarias crear perfiles para gestionar listas de juegos tenidos y deseados.",
+    "highlights": [
+      "Angular 17", "TypeScript", "CRUD", "Bootstrap", "HTML5", "CSS3", "Mapbox GL", "Chart.js", "ngx-toastr", "Tippy.js", "JWT", "APIs"
+    ],
+    "url": "https://github.com/RebecaRG/playteca-web"
+  },
+  {
+    "name": "Playteca-server",
+    "startDate": "2024-04-01",
+    "endDate": "2024-05-30",
+    "description": "Backend del proyecto personal de Playteca, desarrollado con Express y Sequelize, que utiliza JavaScript y dotenv.",
+    "highlights": [
+      "JavaScript", "Express", "Node.js", "Sequelize", "dotenv"
+    ],
+    "url": "https://github.com/RebecaRG/backend-juegos-mesa"
+  },
+  {
+    "name": "CV",
+    "startDate": "2024-05-01",
+    "endDate": "2024-05-30",
+    "description": "Portafolio tipo CV con Keyboard Manager, desarrollado con Astro y basado en los diseños de Bartosz Jarocki y Midudev. Sigue el esquema de JSON proporcionado por jsonresume.org.",
+    "highlights": [
+      "Astro", "JavaScript", "HTML5", "CSS3", "JSON", "Keyboard Manager"
+    ],
+    "url": "https://github.com/RebecaRG/portafolio"
   }
+  ]
+  }
+  
+  
