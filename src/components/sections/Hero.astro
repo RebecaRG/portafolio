@@ -28,7 +28,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(' • ')
             <h2>{label}</h2>
             <span>
                 <WorldMap />
-                {city}, {region}
+                {region}
             </span>
             <footer class="print">
                     {printInfo}
@@ -49,7 +49,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(' • ')
                 {
                     phone && (
                         <a
-                            href={`mailto:${phone}`}
+                            href="tel:${phone}"
                             title = {`Llamar por teléfono a ${name} al número ${phone}`}
                             target="_blank"
                             rel="noopener noreferrer"
@@ -108,9 +108,9 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(' • ')
 
     img {
         aspect-ratio: 1 / 1;
-        object-fit: cover;
-        width: 128px;
-        border-radius: 16px
+        
+        width: 150px;
+       
     }
 
     span {
