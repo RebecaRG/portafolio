@@ -2,6 +2,7 @@
 import Section from "../Section.astro"
 
 import { projects } from "@cv"
+import Github from "@/icons/Github.astro"
 ---
 <Section title="Proyectos">
 
@@ -11,9 +12,16 @@ import { projects } from "@cv"
                 <li>
                     <article>
                         <header>
+                            <div class="name-icon">
                             <a href={url} title = {`Ver el proyecyo ${name}` }>
                             <h3>{name}</h3>
                             </a> 
+                            <span class="icons">
+                                <a class="link-icon" href={url} target="_blank" rel="noopener noreferrer">
+                                        <Github/>
+                                </a>
+                            </span>
+                        </div>
                             <p>{description}</p>
                         </header>
                         <footer>
@@ -87,6 +95,35 @@ import { projects } from "@cv"
         font-size: .6rem;
         font-weight: 500;
         padding: 0.2rem 0.6rem;
+    }
 
+.icons {
+        display: flex;
+        gap: 8px;
+        width: 75%;
+    }
+
+    .link-icon {
+        color: #777;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #eee;
+        padding: 3px;
+        height: 24px;
+        width: 24px;
+        border-radius: 6px;
+        transition: all .3s ease;
+    }
+
+    .name-icon{
+        display: flex;
+        align-items: center;  
+        gap: 8px;
+    }
+
+.name-icon h3 {
+    white-space: nowrap;
+}
 
 </style>

@@ -2,12 +2,13 @@
 import Section from "../Section.astro"
 
 import { work } from "@cv"
+import Github from '@/icons/Github.astro'
 ---
 <Section title="Experiencia laboral">
     <ul>
         {
         work.map(
-            ({name, startDate, endDate, position, summary, highlights}) => {
+            ({name, startDate, endDate, position, url, highlights}) => {
         const startYear = new Date(startDate).getFullYear()
         const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actual"
         const years = `${startYear} - ${endYear}`
@@ -16,14 +17,27 @@ import { work } from "@cv"
                 <article>
                     <header>
                         <div>
-                            <h3>{name}</h3>
-                            <h4>{position}</h4>
+                            <h3>{position}</h3>
+                            <div class="name-icon">
+                            <h4>{name}</h4>
+                            <span class="icons">
+                                {url.map((oneUrl) => (
+                                    <a href={oneUrl} target="_blank" rel="noopener noreferrer">
+                                        <Github/>
+                                    </a>
+                                ))}
+                            </span>
+                        </div>
                         </div>
                         <time>{years}</time>
                         
                     </header>
                     <footer>
-                        <p>{summary}</p>
+                        <p>
+                                {highlights.map((highlight) => (
+                                    <span class="highlights">&bull; {highlight}</span><br/>
+                                ))}
+                            </p>
                     </footer>
                     
                     
@@ -70,4 +84,33 @@ import { work } from "@cv"
         font-size: 0.85rem;
     }
 
+    .icons {
+        display: flex;
+        gap: 8px;
+        width: 75%;
+    }
+
+    a {
+        color: #777;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #eee;
+        padding: 3px;
+        height: 24px;
+        width: 24px;
+        border-radius: 6px;
+        transition: all .3s ease;
+    }
+
+    .name-icon{
+        display: flex;
+        align-items: center;  
+        gap: 8px;
+    }
+
+    .highlights {
+        font-size: 0.75rem;
+    }
+    
 </style>

@@ -6,7 +6,7 @@
       "email": "rebeca.rodriguez.guirao@gmail.com",
       "phone": "+34 670 31 03 28",
       "url": "https://rebecarodriguez.info",
-      "summary": "Mi formación universitaria comenzó con magisterio, donde no solo se alimentaron mis ganas de enseñar, sino también las de aprender. Soy una gran apasionada de las nuevas tecnologías, y mi interés por ellas me ha llevado a estudiar una Licenciatura en Comunicación Audiovisual y a especializarme en la programación, específicamente en la parte del cliente, aunque también me he interesado por el lado del servidor. Mi trayectoria profesional me ha ayudado a desarrollar habilidades de comunicación, trabajo en equipo y la facilidad para afrontar nuevos retos. Me considero una persona muy responsable, con gran capacidad para encontrar soluciones."
+      "summary": "Soy una apasionada de las nuevas tecnologías, y esa pasión me llevó a estudiar Comunicación Audiovisual después de diplomarme en Magisterio, y a especializarme en programación. Gracias a mi trayectoria profesional, he desarrollado habilidades de comunicación, trabajo en equipo y adaptabilidad. Me considero una persona proactiva y siempre lista para nuevos retos."
 ,
       "location": {
         "address": "",
@@ -25,47 +25,54 @@
     },
     "work": [
       {
-      "name": "Departament d'Educació de la Generalitat de Catalunya",
-      "position": "Profesora Interina de Formación Profesional",
-      "url": "",
+        "name": "Playteca",
+        "position": "Frontend Developer",
+        "url": ["https://github.com/RebecaRG/playteca-web", "https://github.com/RebecaRG/backend-juegos-mesa"],
+        "startDate": "2016-09-01",
+        "endDate": "2020-09-01",
+        "summary": "Elaboración de las programaciones de aula, seguimiento y evaluación del alumnado, elaboración de material diverso y reuniones con las familias.",
+        "highlights": [
+          "Creación del frontend con Angular17.",
+          "Implementación de Mapbox GL, Chart.js, ngx-toastr y Tippy.js.",
+          "Gestión de usuarios/as con registro y login.",
+          "Implementación del backend con MySQL, Node.js, Express, Sequelize y JS."
+        ]
+      }, 
+      {
+      "name": "Departament d'Educació",
+      "position": "Profesora FP / Maestra",
+      "url": [],
       "startDate": "2020-01-01",
       "endDate": "2023-01-01",
       "summary": "Realización de la programación, la evaluación, la coordinación con el equipo docente y la elaboración del material y los contenidos.",
       "highlights": [
-        ""
+        "Gestión y diseño de LMS (Moodle).",
+        "Elaboración y maquetación del material didáctico.",
+        "Coordinación equipo docente y familias."
       ]
     }, 
     {
-      "name": "Departament d'Educació de la Generalitat de Catalunya",
-      "position": "Maestra Interina de Educación Infantil y Primaria",
-      "url": "",
-      "startDate": "2016-09-01",
-      "endDate": "2020-09-01",
-      "summary": "Elaboración de las programaciones de aula, seguimiento y evaluación del alumnado, elaboración de material diverso y reuniones con las familias.",
-      "highlights": [
-        ""
-      ]
-    }, 
-    {
-      "name": "OBS Business School",
+      "name": "OBS Business School (EAE/UB)",
       "position": "Asesora de programas",
-      "url": "",
+      "url": [],
       "startDate": "2011-01-01",
       "endDate": "2015-01-01",
       "summary": "Ofrecer información telefónica, por correo electrónico y de manera presencial sobre los másteres y postgrados y realizar las gestiones del proceso de inscripción.",
       "highlights": [
-        ""
+        "Asesoramiento telefónico, por email y presencial.",
+        "Gestión proceso de inscripción."
       ]
     },
     {
       "name": "Marinva",
-      "position": "Técnica de proyectos de Comunicación",
-      "url": "",
+      "position": "Técnica de proyectos",
+      "url":[],
       "startDate": "2009-01-01",
       "endDate": "2011-01-01",
       "summary": "Participación en proyectos elaborando focus groups, revisando juegos educativos, coordinando actividades de participación ciudadana, y manteniendo y revisando páginas web. También brindé soporte elaborando material gráfico y audiovisual.",
       "highlights": [
-        ""
+        "Coordinación y ejecución de proyectos de comunicación y juego.",
+        "Elaboración de material gráfico y audiovisual."
       ]
     }
 
@@ -173,7 +180,7 @@
       "url": "",
       "summary": ""
     }],
-    "skills": [
+    "techskills": [
       {
         "name": "Angular",
         "level": "Intermedio",
@@ -287,13 +294,46 @@
       ]
     },
     {
+      "name": "LMS",
+      "level": "Intermedio",
+      "keywords": [
+        ""
+      ]
+    },
+    {
       "name": "Astro",
       "level": "Principiante",
       "keywords": [
         ""
       ]
+    },
+    {
+      "name": "Notion",
+      "level": "Intermedio",
+      "keywords": [
+        ""
+      ]
     }
-    
+  ],
+  "softskills": [
+    {
+      "name": "Autoaprendizaje"
+    }, 
+    {
+      "name": "Planificación"
+    },
+    {
+      "name": "Gestión de la frustración"
+    },
+    {
+      "name": "Resolución de problemas"
+    },
+    {
+      "name": "Adaptabilidad"
+    },
+    {
+      "name": "Proactividad"
+    }
   ],
     "languages": [{
       "language": "",
@@ -312,7 +352,7 @@
     }],
     "projects": [
       {
-      "name": "Star Wars Starships Explorer",
+      "name": "Star Wars Starships",
       "startDate": "2024-02-01",
       "endDate": "",
       "description": "Web desarrollada con Angular 17 sobre naves de Star Wars utilizando APIs, siguiendo la estética de la web oficial. Este proyecto incluye un scroll infinito, autenticación con JWT en json-server-auth y rutas protegidas.",
@@ -337,30 +377,11 @@
       "endDate": "2024-03-30",
       "description": "Backend desarrollado con Express y Sequelize, que utiliza TypeScript y dotenv, complementando el frontend en el repositorio inprocode.",
       "highlights": [
-        "TypeScript", "Express", "Node.js", "Sequelize", "dotenev"
+        "TypeScript", "Express", "Node.js", "Node.js", "Sequelize", "dotenv"
       ],
       "url": "https://github.com/RebecaRG/server-inprocode"
     },
-  {
-    "name": "Playteca",
-    "startDate": "2024-04-01",
-    "endDate": "2024-05-30",
-    "description": "Proyecto personal de un sitio web sobre juegos de mesa, que ofrece información sobre eventos, un mapa con lugares de interés, y un listado de juegos de mesa con sus características. Además, permite a los usuarios y usuarias crear perfiles para gestionar listas de juegos tenidos y deseados.",
-    "highlights": [
-      "Angular 17", "TypeScript", "CRUD", "Bootstrap", "HTML5", "CSS3", "Mapbox GL", "Chart.js", "ngx-toastr", "Tippy.js", "JWT", "APIs"
-    ],
-    "url": "https://github.com/RebecaRG/playteca-web"
-  },
-  {
-    "name": "Playteca-server",
-    "startDate": "2024-04-01",
-    "endDate": "2024-05-30",
-    "description": "Backend del proyecto personal de Playteca, desarrollado con Express y Sequelize, que utiliza JavaScript y dotenv.",
-    "highlights": [
-      "JavaScript", "Express", "Node.js", "Sequelize", "dotenv"
-    ],
-    "url": "https://github.com/RebecaRG/backend-juegos-mesa"
-  },
+
   {
     "name": "CV",
     "startDate": "2024-05-01",
