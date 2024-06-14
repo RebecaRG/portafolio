@@ -28,9 +28,9 @@
         "name": "Playteca",
         "position": "Frontend Developer",
         "url": ["https://github.com/RebecaRG/playteca-web", "https://github.com/RebecaRG/backend-juegos-mesa"],
-        "startDate": "2016-09-01",
-        "endDate": "2020-09-01",
-        "summary": "Elaboración de las programaciones de aula, seguimiento y evaluación del alumnado, elaboración de material diverso y reuniones con las familias.",
+        "startDate": "2024-05-01",
+        "endDate": "actualmente",
+        "summary": "",
         "highlights": [
           "Creación del frontend con Angular17.",
           "Implementación de Mapbox GL, Chart.js, ngx-toastr y Tippy.js.",
@@ -42,8 +42,8 @@
       "name": "Departament d'Educació",
       "position": "Profesora FP / Maestra",
       "url": [],
-      "startDate": "2020-01-01",
-      "endDate": "2023-01-01",
+      "startDate": "2011-09-01",
+      "endDate": "2023-08-01",
       "summary": "Realización de la programación, la evaluación, la coordinación con el equipo docente y la elaboración del material y los contenidos.",
       "highlights": [
         "Gestión y diseño de LMS (Moodle).",
@@ -377,7 +377,7 @@
       "endDate": "2024-03-30",
       "description": "Backend desarrollado con Express y Sequelize, que utiliza TypeScript y dotenv, complementando el frontend en el repositorio inprocode.",
       "highlights": [
-        "TypeScript", "Express", "Node.js", "Node.js", "Sequelize", "dotenv"
+        "TypeScript", "Express", "Node.js", "MySQL", "Sequelize", "dotenv"
       ],
       "url": "https://github.com/RebecaRG/server-inprocode"
     },
