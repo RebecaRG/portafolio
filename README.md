@@ -45,6 +45,10 @@ Para utilizar este proyecto y personalizar tu propio CV/Portafolio, sigue estos 
 ## 🤝 Contribuciones
 Las contribuciones son bienvenidas. Si tienes alguna idea o mejora, no dudes en hacer un fork del repositorio y abrir un pull request.
 
+## 📷 Ejemplo
+![Fotografía a modo de ejemplo del resultado](foto-ejemplo.png)
+
+
 
 
 
