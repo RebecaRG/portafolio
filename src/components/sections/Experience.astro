@@ -10,7 +10,7 @@ import Github from '@/icons/Github.astro'
         work.map(
             ({name, startDate, endDate, position, url, highlights}) => {
         const startYear = new Date(startDate).getFullYear()
-        const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actual"
+        const endYear = endDate ? new Date(endDate).getFullYear() : " ... "
         const years = `${startYear} - ${endYear}`
         return(
             <li>
